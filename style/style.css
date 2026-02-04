@@ -1,10 +1,10 @@
 
-  body {
+* {
     font-family: Montserrat;
-  }
+}
 
 .background-picture {
-  background-image: url("images/background.png");
+  background-image: url("images/background-dandelion.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
@@ -15,7 +15,7 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
-  }  
+}  
 
 .product-card-wrapper {
   margin: 30%;
@@ -86,13 +86,6 @@
   margin-top: 5px;
   list-style: circle;
   margin-bottom: 25px;
-}
-
-.product-card__item {
-  padding-top: 10px;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 13px;
 }
 
 .product-card__text {
