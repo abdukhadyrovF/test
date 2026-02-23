@@ -3,6 +3,17 @@
   font-family: Montserrat;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+
+}
+.active {
+  background-color: #8e8e35;
+
+}
 .background-picture {
   background-image: url("images/background-dandelion.png");
   background-repeat: no-repeat;
