@@ -12,12 +12,12 @@ recolorFirstCardButton.addEventListener('click', () => {
 
 const greenHashColor = '#00ff44';
 
-const allProductCard = document.querySelectorAll('.product-card');
-const recolorAllCardButton = document.getElementById('recolor-all-card-button');
+const allProductCards = document.querySelectorAll('.product-card');
+const recolorAllCardsButton = document.getElementById('recolor-all-cards-button');
 
-recolorAllCardButton.addEventListener('click', () => {
-  allProductCard.forEach(
-    card => card.style .backgroundColor = greenHashColor
+recolorAllCardsButton.addEventListener('click', () => {
+  allProductCards.forEach(
+    card => card.style.backgroundColor = greenHashColor
   );
 });
 
@@ -40,5 +40,5 @@ function openGoogle() {
 const changeColorButton = document. getElementById('change-color-button');
 changeColorButton.addEventListener('click', () => {
   const yellowHashColor = '#FFFF00';
-  changeColorButton.classList.toggle ('active')
+  changeColorButton.classList.toggle('active')
 }); 
